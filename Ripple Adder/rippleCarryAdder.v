@@ -1,4 +1,4 @@
-module rippleCarryAdder32(
+module rippleCarryAdder(
     input [31:0] A,
     input [31:0] B,
     input Cin, 
