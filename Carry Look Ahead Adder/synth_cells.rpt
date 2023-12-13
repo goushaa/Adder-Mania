@@ -1,0 +1,117 @@
+****************************************
+Report : cell
+Design : carryLookAhead
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 19:39:18 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U68                       NOR2X0          saed90nm_typ_ht 5.529600  
+U69                       XNOR2X1         saed90nm_typ_ht 13.824000 
+U70                       AO22X1          saed90nm_typ_ht 11.980800 
+U71                       XOR2X1          saed90nm_typ_ht 13.824000 
+U72                       AO22X1          saed90nm_typ_ht 11.980800 
+U73                       OR2X1           saed90nm_typ_ht 7.372800  
+U74                       AO22X1          saed90nm_typ_ht 11.980800 
+U75                       OR2X1           saed90nm_typ_ht 7.372800  
+U76                       AO22X1          saed90nm_typ_ht 11.980800 
+U77                       OR2X1           saed90nm_typ_ht 7.372800  
+U78                       AO22X1          saed90nm_typ_ht 11.980800 
+U79                       OR2X1           saed90nm_typ_ht 7.372800  
+U80                       AO22X1          saed90nm_typ_ht 11.980800 
+U81                       OR2X1           saed90nm_typ_ht 7.372800  
+U82                       AO22X1          saed90nm_typ_ht 11.980800 
+U83                       OR2X1           saed90nm_typ_ht 7.372800  
+U84                       AO22X1          saed90nm_typ_ht 11.980800 
+U85                       OR2X1           saed90nm_typ_ht 7.372800  
+U86                       AO22X1          saed90nm_typ_ht 11.980800 
+U87                       OR2X1           saed90nm_typ_ht 7.372800  
+U88                       AO22X1          saed90nm_typ_ht 11.980800 
+U89                       OR2X1           saed90nm_typ_ht 7.372800  
+U90                       AO22X1          saed90nm_typ_ht 11.980800 
+U91                       OR2X1           saed90nm_typ_ht 7.372800  
+U92                       AO22X1          saed90nm_typ_ht 11.980800 
+U93                       OR2X1           saed90nm_typ_ht 7.372800  
+U94                       AO22X1          saed90nm_typ_ht 11.980800 
+U95                       OR2X1           saed90nm_typ_ht 7.372800  
+U96                       AO22X1          saed90nm_typ_ht 11.980800 
+U97                       OR2X1           saed90nm_typ_ht 7.372800  
+U98                       AO22X1          saed90nm_typ_ht 11.980800 
+U99                       OR2X1           saed90nm_typ_ht 7.372800  
+U100                      AO22X1          saed90nm_typ_ht 11.980800 
+U101                      OR2X1           saed90nm_typ_ht 7.372800  
+U102                      AO22X1          saed90nm_typ_ht 11.980800 
+U103                      OR2X1           saed90nm_typ_ht 7.372800  
+U104                      AO22X1          saed90nm_typ_ht 11.980800 
+U105                      OR2X1           saed90nm_typ_ht 7.372800  
+U106                      AO22X1          saed90nm_typ_ht 11.980800 
+U107                      OR2X1           saed90nm_typ_ht 7.372800  
+U108                      AO22X1          saed90nm_typ_ht 11.980800 
+U109                      OR2X1           saed90nm_typ_ht 7.372800  
+U110                      AO22X1          saed90nm_typ_ht 11.980800 
+U111                      OR2X1           saed90nm_typ_ht 7.372800  
+U112                      AO22X1          saed90nm_typ_ht 11.980800 
+U113                      OR2X1           saed90nm_typ_ht 7.372800  
+U114                      AO22X1          saed90nm_typ_ht 11.980800 
+U115                      OR2X1           saed90nm_typ_ht 7.372800  
+U116                      AO22X1          saed90nm_typ_ht 11.980800 
+U117                      OR2X1           saed90nm_typ_ht 7.372800  
+U118                      AO22X1          saed90nm_typ_ht 11.980800 
+U119                      OR2X1           saed90nm_typ_ht 7.372800  
+U120                      AO22X1          saed90nm_typ_ht 11.980800 
+U121                      OR2X1           saed90nm_typ_ht 7.372800  
+U122                      AO22X1          saed90nm_typ_ht 11.980800 
+U123                      OR2X1           saed90nm_typ_ht 7.372800  
+U124                      AO22X1          saed90nm_typ_ht 11.980800 
+U125                      OR2X1           saed90nm_typ_ht 7.372800  
+U126                      AO22X1          saed90nm_typ_ht 11.980800 
+U127                      OR2X1           saed90nm_typ_ht 7.372800  
+U128                      AO22X1          saed90nm_typ_ht 11.980800 
+U129                      OR2X1           saed90nm_typ_ht 7.372800  
+U130                      AO22X1          saed90nm_typ_ht 11.980800 
+U131                      OR2X1           saed90nm_typ_ht 7.372800  
+U132                      AO22X1          saed90nm_typ_ht 11.980800 
+U133                      OR2X1           saed90nm_typ_ht 7.372800  
+gen_full_adders[0].FA     fullAdder_0                     39.628800 h
+gen_full_adders[1].FA     fullAdder_31                    39.628800 h
+gen_full_adders[2].FA     fullAdder_30                    39.628800 h
+gen_full_adders[3].FA     fullAdder_29                    39.628800 h
+gen_full_adders[4].FA     fullAdder_28                    39.628800 h
+gen_full_adders[5].FA     fullAdder_27                    39.628800 h
+gen_full_adders[6].FA     fullAdder_26                    39.628800 h
+gen_full_adders[7].FA     fullAdder_25                    39.628800 h
+gen_full_adders[8].FA     fullAdder_24                    39.628800 h
+gen_full_adders[9].FA     fullAdder_23                    39.628800 h
+gen_full_adders[10].FA    fullAdder_22                    39.628800 h
+gen_full_adders[11].FA    fullAdder_21                    39.628800 h
+gen_full_adders[12].FA    fullAdder_20                    39.628800 h
+gen_full_adders[13].FA    fullAdder_19                    39.628800 h
+gen_full_adders[14].FA    fullAdder_18                    39.628800 h
+gen_full_adders[15].FA    fullAdder_17                    39.628800 h
+gen_full_adders[16].FA    fullAdder_16                    39.628800 h
+gen_full_adders[17].FA    fullAdder_15                    39.628800 h
+gen_full_adders[18].FA    fullAdder_14                    39.628800 h
+gen_full_adders[19].FA    fullAdder_13                    39.628800 h
+gen_full_adders[20].FA    fullAdder_12                    39.628800 h
+gen_full_adders[21].FA    fullAdder_11                    39.628800 h
+gen_full_adders[22].FA    fullAdder_10                    39.628800 h
+gen_full_adders[23].FA    fullAdder_9                     39.628800 h
+gen_full_adders[24].FA    fullAdder_8                     39.628800 h
+gen_full_adders[25].FA    fullAdder_7                     39.628800 h
+gen_full_adders[26].FA    fullAdder_6                     39.628800 h
+gen_full_adders[27].FA    fullAdder_5                     39.628800 h
+gen_full_adders[28].FA    fullAdder_4                     39.628800 h
+gen_full_adders[29].FA    fullAdder_3                     39.628800 h
+gen_full_adders[30].FA    fullAdder_2                     39.628800 h
+gen_full_adders[31].FA    fullAdder_1                     39.628800 h
+--------------------------------------------------------------------------------
+Total 98 cells                                            1913.241599
+1

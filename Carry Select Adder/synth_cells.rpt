@@ -1,0 +1,45 @@
+****************************************
+Report : cell
+Design : carrySelectAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:04:36 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+FA0                       fullAdder16_0                   634.060806
+                                                                    h
+FA1                       fullAdder16_1                   634.060806
+                                                                    h
+FA2                       fullAdder16_2                   634.060806
+                                                                    h
+U24                       MUX21X1         saed90nm_typ_ht 11.059200 
+U25                       MUX21X1         saed90nm_typ_ht 11.059200 
+U26                       MUX21X1         saed90nm_typ_ht 11.059200 
+U27                       MUX21X1         saed90nm_typ_ht 11.059200 
+U28                       MUX21X1         saed90nm_typ_ht 11.059200 
+U29                       MUX21X1         saed90nm_typ_ht 11.059200 
+U30                       MUX21X1         saed90nm_typ_ht 11.059200 
+U31                       MUX21X1         saed90nm_typ_ht 11.059200 
+U32                       MUX21X1         saed90nm_typ_ht 11.059200 
+U33                       MUX21X1         saed90nm_typ_ht 11.059200 
+U34                       MUX21X1         saed90nm_typ_ht 11.059200 
+U35                       MUX21X1         saed90nm_typ_ht 11.059200 
+U36                       MUX21X1         saed90nm_typ_ht 11.059200 
+U37                       MUX21X1         saed90nm_typ_ht 11.059200 
+U38                       MUX21X1         saed90nm_typ_ht 11.059200 
+U39                       NOR2X0          saed90nm_typ_ht 5.529600  
+U40                       XOR2X1          saed90nm_typ_ht 13.824000 
+U41                       XNOR2X1         saed90nm_typ_ht 13.824000 
+U42                       MUX21X1         saed90nm_typ_ht 11.059200 
+U43                       MUX21X1         saed90nm_typ_ht 11.059200 
+--------------------------------------------------------------------------------
+Total 23 cells                                            2123.366425
+1

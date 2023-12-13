@@ -1,0 +1,746 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : carrySelectAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:04:37 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: B[0] (input port)
+  Endpoint: overFlow (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U42/Q (MUX21X1)                                         0.40       4.55 r
+  U41/Q (XNOR2X1)                                         0.28       4.82 r
+  U39/QN (NOR2X0)                                         0.13       4.96 f
+  overFlow (out)                                          0.22       5.18 f
+  data arrival time                                                  5.18
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U42/Q (MUX21X1)                                         0.40       4.55 r
+  S[31] (out)                                             0.25       4.80 r
+  data arrival time                                                  4.80
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U24/Q (MUX21X1)                                         0.39       4.54 r
+  S[30] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U25/Q (MUX21X1)                                         0.39       4.54 r
+  S[29] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U26/Q (MUX21X1)                                         0.39       4.54 r
+  S[28] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[27] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U27/Q (MUX21X1)                                         0.39       4.54 r
+  S[27] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[26] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U28/Q (MUX21X1)                                         0.39       4.54 r
+  S[26] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[25] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U29/Q (MUX21X1)                                         0.39       4.54 r
+  S[25] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[24] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U30/Q (MUX21X1)                                         0.39       4.54 r
+  S[24] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[23] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carrySelectAdder   8000                  saed90nm_typ_ht
+  fullAdder_0        ForQA                 saed90nm_typ_ht
+  fullAdder16_0      8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 r
+  B[0] (in)                                               0.00       1.00 r
+  FA0/B[0] (fullAdder16_0)                                0.00       1.00 r
+  FA0/gen_full_adders[0].FA/B (fullAdder_0)               0.00       1.00 r
+  FA0/gen_full_adders[0].FA/U3/Q (XOR2X1)                 0.22       1.22 f
+  FA0/gen_full_adders[0].FA/U2/Q (AO22X1)                 0.18       1.40 f
+  FA0/gen_full_adders[0].FA/Cout (fullAdder_0)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/Cin (fullAdder_47)            0.00       1.40 f
+  FA0/gen_full_adders[1].FA/U2/Q (AO22X1)                 0.17       1.57 f
+  FA0/gen_full_adders[1].FA/Cout (fullAdder_47)           0.00       1.57 f
+  FA0/gen_full_adders[2].FA/Cin (fullAdder_46)            0.00       1.57 f
+  FA0/gen_full_adders[2].FA/U2/Q (AO22X1)                 0.17       1.75 f
+  FA0/gen_full_adders[2].FA/Cout (fullAdder_46)           0.00       1.75 f
+  FA0/gen_full_adders[3].FA/Cin (fullAdder_45)            0.00       1.75 f
+  FA0/gen_full_adders[3].FA/U2/Q (AO22X1)                 0.17       1.92 f
+  FA0/gen_full_adders[3].FA/Cout (fullAdder_45)           0.00       1.92 f
+  FA0/gen_full_adders[4].FA/Cin (fullAdder_44)            0.00       1.92 f
+  FA0/gen_full_adders[4].FA/U2/Q (AO22X1)                 0.17       2.10 f
+  FA0/gen_full_adders[4].FA/Cout (fullAdder_44)           0.00       2.10 f
+  FA0/gen_full_adders[5].FA/Cin (fullAdder_43)            0.00       2.10 f
+  FA0/gen_full_adders[5].FA/U2/Q (AO22X1)                 0.17       2.27 f
+  FA0/gen_full_adders[5].FA/Cout (fullAdder_43)           0.00       2.27 f
+  FA0/gen_full_adders[6].FA/Cin (fullAdder_42)            0.00       2.27 f
+  FA0/gen_full_adders[6].FA/U2/Q (AO22X1)                 0.17       2.44 f
+  FA0/gen_full_adders[6].FA/Cout (fullAdder_42)           0.00       2.44 f
+  FA0/gen_full_adders[7].FA/Cin (fullAdder_41)            0.00       2.44 f
+  FA0/gen_full_adders[7].FA/U2/Q (AO22X1)                 0.17       2.62 f
+  FA0/gen_full_adders[7].FA/Cout (fullAdder_41)           0.00       2.62 f
+  FA0/gen_full_adders[8].FA/Cin (fullAdder_40)            0.00       2.62 f
+  FA0/gen_full_adders[8].FA/U2/Q (AO22X1)                 0.17       2.79 f
+  FA0/gen_full_adders[8].FA/Cout (fullAdder_40)           0.00       2.79 f
+  FA0/gen_full_adders[9].FA/Cin (fullAdder_39)            0.00       2.79 f
+  FA0/gen_full_adders[9].FA/U2/Q (AO22X1)                 0.17       2.97 f
+  FA0/gen_full_adders[9].FA/Cout (fullAdder_39)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/Cin (fullAdder_38)           0.00       2.97 f
+  FA0/gen_full_adders[10].FA/U2/Q (AO22X1)                0.17       3.14 f
+  FA0/gen_full_adders[10].FA/Cout (fullAdder_38)          0.00       3.14 f
+  FA0/gen_full_adders[11].FA/Cin (fullAdder_37)           0.00       3.14 f
+  FA0/gen_full_adders[11].FA/U2/Q (AO22X1)                0.17       3.31 f
+  FA0/gen_full_adders[11].FA/Cout (fullAdder_37)          0.00       3.31 f
+  FA0/gen_full_adders[12].FA/Cin (fullAdder_36)           0.00       3.31 f
+  FA0/gen_full_adders[12].FA/U2/Q (AO22X1)                0.17       3.49 f
+  FA0/gen_full_adders[12].FA/Cout (fullAdder_36)          0.00       3.49 f
+  FA0/gen_full_adders[13].FA/Cin (fullAdder_35)           0.00       3.49 f
+  FA0/gen_full_adders[13].FA/U2/Q (AO22X1)                0.17       3.66 f
+  FA0/gen_full_adders[13].FA/Cout (fullAdder_35)          0.00       3.66 f
+  FA0/gen_full_adders[14].FA/Cin (fullAdder_34)           0.00       3.66 f
+  FA0/gen_full_adders[14].FA/U2/Q (AO22X1)                0.17       3.84 f
+  FA0/gen_full_adders[14].FA/Cout (fullAdder_34)          0.00       3.84 f
+  FA0/gen_full_adders[15].FA/Cin (fullAdder_33)           0.00       3.84 f
+  FA0/gen_full_adders[15].FA/U2/Q (AO22X1)                0.31       4.15 f
+  FA0/gen_full_adders[15].FA/Cout (fullAdder_33)          0.00       4.15 f
+  FA0/Cout (fullAdder16_0)                                0.00       4.15 f
+  U31/Q (MUX21X1)                                         0.39       4.54 r
+  S[23] (out)                                             0.22       4.76 r
+  data arrival time                                                  4.76
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

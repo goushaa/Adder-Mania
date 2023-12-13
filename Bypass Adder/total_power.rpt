@@ -1,0 +1,102 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : bypassAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:52:50 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user28/Downloads/lookAheadAdder/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+bypassAdder            8000              saed90nm_typ_ht
+bypass_adder_0         8000              saed90nm_typ_ht
+fullAdder_7            ForQA             saed90nm_typ_ht
+fullAdder_6            ForQA             saed90nm_typ_ht
+fullAdder_5            ForQA             saed90nm_typ_ht
+fullAdder_4            ForQA             saed90nm_typ_ht
+bypass_adder_1         8000              saed90nm_typ_ht
+bypass_adder_2         8000              saed90nm_typ_ht
+bypass_adder_3         8000              saed90nm_typ_ht
+bypass_adder_4         8000              saed90nm_typ_ht
+bypass_adder_5         8000              saed90nm_typ_ht
+bypass_adder_6         8000              saed90nm_typ_ht
+bypass_adder_7         8000              saed90nm_typ_ht
+fullAdder_0            ForQA             saed90nm_typ_ht
+fullAdder_1            ForQA             saed90nm_typ_ht
+fullAdder_2            ForQA             saed90nm_typ_ht
+fullAdder_3            ForQA             saed90nm_typ_ht
+fullAdder_8            ForQA             saed90nm_typ_ht
+fullAdder_9            ForQA             saed90nm_typ_ht
+fullAdder_10           ForQA             saed90nm_typ_ht
+fullAdder_11           ForQA             saed90nm_typ_ht
+fullAdder_12           ForQA             saed90nm_typ_ht
+fullAdder_13           ForQA             saed90nm_typ_ht
+fullAdder_14           ForQA             saed90nm_typ_ht
+fullAdder_15           ForQA             saed90nm_typ_ht
+fullAdder_16           ForQA             saed90nm_typ_ht
+fullAdder_17           ForQA             saed90nm_typ_ht
+fullAdder_18           ForQA             saed90nm_typ_ht
+fullAdder_19           ForQA             saed90nm_typ_ht
+fullAdder_20           ForQA             saed90nm_typ_ht
+fullAdder_21           ForQA             saed90nm_typ_ht
+fullAdder_22           ForQA             saed90nm_typ_ht
+fullAdder_23           ForQA             saed90nm_typ_ht
+fullAdder_24           ForQA             saed90nm_typ_ht
+fullAdder_25           ForQA             saed90nm_typ_ht
+fullAdder_26           ForQA             saed90nm_typ_ht
+fullAdder_27           ForQA             saed90nm_typ_ht
+fullAdder_28           ForQA             saed90nm_typ_ht
+fullAdder_29           ForQA             saed90nm_typ_ht
+fullAdder_30           ForQA             saed90nm_typ_ht
+fullAdder_31           ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 587.1072 uW   (80%)
+  Net Switching Power  = 147.2082 uW   (20%)
+                         ---------
+Total Dynamic Power    = 734.3154 uW  (100%)
+
+Cell Leakage Power     =  31.6359 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    587.1071          147.2082        3.1636e+07          765.9513  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total            587.1071 uW       147.2082 uW     3.1636e+07 pW       765.9513 uW
+1

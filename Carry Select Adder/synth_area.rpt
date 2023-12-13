@@ -1,0 +1,30 @@
+****************************************
+Report : area
+Design : carrySelectAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:04:36 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user28/Downloads/lookAheadAdder/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          489
+Number of nets:                           621
+Number of cells:                          217
+Number of combinational cells:            164
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       7
+
+Combinational area:               2123.366425
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              74.928189
+
+Total cell area:                  2123.366425
+Total area:                       2198.294614
+1

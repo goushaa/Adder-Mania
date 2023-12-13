@@ -1,0 +1,38 @@
+****************************************
+Report : cell
+Design : bypassAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:52:50 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+BA1                       bypass_adder_0                  234.086403
+                                                                    h
+BA2                       bypass_adder_7                  234.086403
+                                                                    h
+BA3                       bypass_adder_6                  234.086403
+                                                                    h
+BA4                       bypass_adder_5                  234.086403
+                                                                    h
+BA5                       bypass_adder_4                  234.086403
+                                                                    h
+BA6                       bypass_adder_3                  234.086403
+                                                                    h
+BA7                       bypass_adder_2                  234.086403
+                                                                    h
+BA8                       bypass_adder_1                  234.086403
+                                                                    h
+U4                        NOR2X0          saed90nm_typ_ht 5.529600  
+U5                        XOR2X1          saed90nm_typ_ht 13.824000 
+U6                        XNOR2X1         saed90nm_typ_ht 13.824000 
+--------------------------------------------------------------------------------
+Total 11 cells                                            1905.868824
+1

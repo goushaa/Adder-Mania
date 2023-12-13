@@ -1,0 +1,1122 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : bypassAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:52:50 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: B[0] (input port)
+  Endpoint: overFlow (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+  bypass_adder_1     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U2/Q (AO22X1)                    0.16       7.17 f
+  BA7/FA4/Cout (fullAdder_12)              0.00       7.17 f
+  BA7/U8/Q (MUX21X1)                       0.18       7.35 f
+  BA7/Cout (bypass_adder_2)                0.00       7.35 f
+  BA8/Cin (bypass_adder_1)                 0.00       7.35 f
+  BA8/FA1/Cin (fullAdder_0)                0.00       7.35 f
+  BA8/FA1/U2/Q (AO22X1)                    0.18       7.53 f
+  BA8/FA1/Cout (fullAdder_0)               0.00       7.53 f
+  BA8/FA2/Cin (fullAdder_25)               0.00       7.53 f
+  BA8/FA2/U2/Q (AO22X1)                    0.17       7.71 f
+  BA8/FA2/Cout (fullAdder_25)              0.00       7.71 f
+  BA8/FA3/Cin (fullAdder_18)               0.00       7.71 f
+  BA8/FA3/U2/Q (AO22X1)                    0.17       7.88 f
+  BA8/FA3/Cout (fullAdder_18)              0.00       7.88 f
+  BA8/FA4/Cin (fullAdder_11)               0.00       7.88 f
+  BA8/FA4/U1/Q (XOR2X1)                    0.25       8.13 f
+  BA8/FA4/Sum (fullAdder_11)               0.00       8.13 f
+  BA8/S[3] (bypass_adder_1)                0.00       8.13 f
+  U6/Q (XNOR2X1)                           0.25       8.37 f
+  U4/QN (NOR2X0)                           0.16       8.53 r
+  overFlow (out)                           0.22       8.75 r
+  data arrival time                                   8.75
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: Cout (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+  bypass_adder_1     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U2/Q (AO22X1)                    0.16       7.17 f
+  BA7/FA4/Cout (fullAdder_12)              0.00       7.17 f
+  BA7/U8/Q (MUX21X1)                       0.18       7.35 f
+  BA7/Cout (bypass_adder_2)                0.00       7.35 f
+  BA8/Cin (bypass_adder_1)                 0.00       7.35 f
+  BA8/FA1/Cin (fullAdder_0)                0.00       7.35 f
+  BA8/FA1/U2/Q (AO22X1)                    0.18       7.53 f
+  BA8/FA1/Cout (fullAdder_0)               0.00       7.53 f
+  BA8/FA2/Cin (fullAdder_25)               0.00       7.53 f
+  BA8/FA2/U2/Q (AO22X1)                    0.17       7.71 f
+  BA8/FA2/Cout (fullAdder_25)              0.00       7.71 f
+  BA8/FA3/Cin (fullAdder_18)               0.00       7.71 f
+  BA8/FA3/U2/Q (AO22X1)                    0.17       7.88 f
+  BA8/FA3/Cout (fullAdder_18)              0.00       7.88 f
+  BA8/FA4/Cin (fullAdder_11)               0.00       7.88 f
+  BA8/FA4/U2/Q (AO22X1)                    0.16       8.04 f
+  BA8/FA4/Cout (fullAdder_11)              0.00       8.04 f
+  BA8/U8/Q (MUX21X1)                       0.19       8.23 f
+  BA8/Cout (bypass_adder_1)                0.00       8.23 f
+  Cout (out)                               0.22       8.45 f
+  data arrival time                                   8.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+  bypass_adder_1     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U2/Q (AO22X1)                    0.16       7.17 f
+  BA7/FA4/Cout (fullAdder_12)              0.00       7.17 f
+  BA7/U8/Q (MUX21X1)                       0.18       7.35 f
+  BA7/Cout (bypass_adder_2)                0.00       7.35 f
+  BA8/Cin (bypass_adder_1)                 0.00       7.35 f
+  BA8/FA1/Cin (fullAdder_0)                0.00       7.35 f
+  BA8/FA1/U2/Q (AO22X1)                    0.18       7.53 f
+  BA8/FA1/Cout (fullAdder_0)               0.00       7.53 f
+  BA8/FA2/Cin (fullAdder_25)               0.00       7.53 f
+  BA8/FA2/U2/Q (AO22X1)                    0.17       7.71 f
+  BA8/FA2/Cout (fullAdder_25)              0.00       7.71 f
+  BA8/FA3/Cin (fullAdder_18)               0.00       7.71 f
+  BA8/FA3/U2/Q (AO22X1)                    0.17       7.88 f
+  BA8/FA3/Cout (fullAdder_18)              0.00       7.88 f
+  BA8/FA4/Cin (fullAdder_11)               0.00       7.88 f
+  BA8/FA4/U1/Q (XOR2X1)                    0.25       8.13 f
+  BA8/FA4/Sum (fullAdder_11)               0.00       8.13 f
+  BA8/S[3] (bypass_adder_1)                0.00       8.13 f
+  S[31] (out)                              0.25       8.38 f
+  data arrival time                                   8.38
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+  bypass_adder_1     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U2/Q (AO22X1)                    0.16       7.17 f
+  BA7/FA4/Cout (fullAdder_12)              0.00       7.17 f
+  BA7/U8/Q (MUX21X1)                       0.18       7.35 f
+  BA7/Cout (bypass_adder_2)                0.00       7.35 f
+  BA8/Cin (bypass_adder_1)                 0.00       7.35 f
+  BA8/FA1/Cin (fullAdder_0)                0.00       7.35 f
+  BA8/FA1/U2/Q (AO22X1)                    0.18       7.53 f
+  BA8/FA1/Cout (fullAdder_0)               0.00       7.53 f
+  BA8/FA2/Cin (fullAdder_25)               0.00       7.53 f
+  BA8/FA2/U2/Q (AO22X1)                    0.17       7.71 f
+  BA8/FA2/Cout (fullAdder_25)              0.00       7.71 f
+  BA8/FA3/Cin (fullAdder_18)               0.00       7.71 f
+  BA8/FA3/U1/Q (XOR2X1)                    0.24       7.95 f
+  BA8/FA3/Sum (fullAdder_18)               0.00       7.95 f
+  BA8/S[2] (bypass_adder_1)                0.00       7.95 f
+  S[30] (out)                              0.22       8.16 f
+  data arrival time                                   8.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+  bypass_adder_1     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U2/Q (AO22X1)                    0.16       7.17 f
+  BA7/FA4/Cout (fullAdder_12)              0.00       7.17 f
+  BA7/U8/Q (MUX21X1)                       0.18       7.35 f
+  BA7/Cout (bypass_adder_2)                0.00       7.35 f
+  BA8/Cin (bypass_adder_1)                 0.00       7.35 f
+  BA8/FA1/Cin (fullAdder_0)                0.00       7.35 f
+  BA8/FA1/U2/Q (AO22X1)                    0.18       7.53 f
+  BA8/FA1/Cout (fullAdder_0)               0.00       7.53 f
+  BA8/FA2/Cin (fullAdder_25)               0.00       7.53 f
+  BA8/FA2/U1/Q (XOR2X1)                    0.24       7.77 f
+  BA8/FA2/Sum (fullAdder_25)               0.00       7.77 f
+  BA8/S[1] (bypass_adder_1)                0.00       7.77 f
+  S[29] (out)                              0.22       7.99 f
+  data arrival time                                   7.99
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U2/Q (AO22X1)                    0.16       7.17 f
+  BA7/FA4/Cout (fullAdder_12)              0.00       7.17 f
+  BA7/U8/Q (MUX21X1)                       0.18       7.35 f
+  BA7/Cout (bypass_adder_2)                0.00       7.35 f
+  BA8/Cin (bypass_adder_1)                 0.00       7.35 f
+  BA8/FA1/Cin (fullAdder_0)                0.00       7.35 f
+  BA8/FA1/U1/Q (XOR2X1)                    0.25       7.60 f
+  BA8/FA1/Sum (fullAdder_0)                0.00       7.60 f
+  BA8/S[0] (bypass_adder_1)                0.00       7.60 f
+  S[28] (out)                              0.22       7.82 f
+  data arrival time                                   7.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[27] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/FA3/Cin (fullAdder_20)               0.00       5.95 f
+  BA6/FA3/U2/Q (AO22X1)                    0.17       6.13 f
+  BA6/FA3/Cout (fullAdder_20)              0.00       6.13 f
+  BA6/FA4/Cin (fullAdder_13)               0.00       6.13 f
+  BA6/FA4/U2/Q (AO22X1)                    0.16       6.29 f
+  BA6/FA4/Cout (fullAdder_13)              0.00       6.29 f
+  BA6/U8/Q (MUX21X1)                       0.18       6.48 f
+  BA6/Cout (bypass_adder_3)                0.00       6.48 f
+  BA7/Cin (bypass_adder_2)                 0.00       6.48 f
+  BA7/FA1/Cin (fullAdder_1)                0.00       6.48 f
+  BA7/FA1/U2/Q (AO22X1)                    0.18       6.66 f
+  BA7/FA1/Cout (fullAdder_1)               0.00       6.66 f
+  BA7/FA2/Cin (fullAdder_26)               0.00       6.66 f
+  BA7/FA2/U2/Q (AO22X1)                    0.17       6.83 f
+  BA7/FA2/Cout (fullAdder_26)              0.00       6.83 f
+  BA7/FA3/Cin (fullAdder_19)               0.00       6.83 f
+  BA7/FA3/U2/Q (AO22X1)                    0.17       7.00 f
+  BA7/FA3/Cout (fullAdder_19)              0.00       7.00 f
+  BA7/FA4/Cin (fullAdder_12)               0.00       7.00 f
+  BA7/FA4/U1/Q (XOR2X1)                    0.24       7.24 f
+  BA7/FA4/Sum (fullAdder_12)               0.00       7.24 f
+  BA7/S[3] (bypass_adder_2)                0.00       7.24 f
+  S[27] (out)                              0.22       7.46 f
+  data arrival time                                   7.46
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[26] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bypassAdder        8000                  saed90nm_typ_ht
+  fullAdder_7        ForQA                 saed90nm_typ_ht
+  bypass_adder_0     8000                  saed90nm_typ_ht
+  bypass_adder_7     8000                  saed90nm_typ_ht
+  bypass_adder_6     8000                  saed90nm_typ_ht
+  bypass_adder_5     8000                  saed90nm_typ_ht
+  bypass_adder_4     8000                  saed90nm_typ_ht
+  bypass_adder_3     8000                  saed90nm_typ_ht
+  bypass_adder_2     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  B[0] (in)                                0.00       1.00 r
+  BA1/B[0] (bypass_adder_0)                0.00       1.00 r
+  BA1/FA1/B (fullAdder_7)                  0.00       1.00 r
+  BA1/FA1/U3/Q (XOR2X1)                    0.23       1.23 f
+  BA1/FA1/U2/Q (AO22X1)                    0.18       1.41 f
+  BA1/FA1/Cout (fullAdder_7)               0.00       1.41 f
+  BA1/FA2/Cin (fullAdder_6)                0.00       1.41 f
+  BA1/FA2/U2/Q (AO22X1)                    0.17       1.58 f
+  BA1/FA2/Cout (fullAdder_6)               0.00       1.58 f
+  BA1/FA3/Cin (fullAdder_5)                0.00       1.58 f
+  BA1/FA3/U2/Q (AO22X1)                    0.17       1.75 f
+  BA1/FA3/Cout (fullAdder_5)               0.00       1.75 f
+  BA1/FA4/Cin (fullAdder_4)                0.00       1.75 f
+  BA1/FA4/U2/Q (AO22X1)                    0.16       1.92 f
+  BA1/FA4/Cout (fullAdder_4)               0.00       1.92 f
+  BA1/U8/Q (MUX21X1)                       0.18       2.10 f
+  BA1/Cout (bypass_adder_0)                0.00       2.10 f
+  BA2/Cin (bypass_adder_7)                 0.00       2.10 f
+  BA2/FA1/Cin (fullAdder_10)               0.00       2.10 f
+  BA2/FA1/U2/Q (AO22X1)                    0.18       2.28 f
+  BA2/FA1/Cout (fullAdder_10)              0.00       2.28 f
+  BA2/FA2/Cin (fullAdder_31)               0.00       2.28 f
+  BA2/FA2/U2/Q (AO22X1)                    0.17       2.45 f
+  BA2/FA2/Cout (fullAdder_31)              0.00       2.45 f
+  BA2/FA3/Cin (fullAdder_24)               0.00       2.45 f
+  BA2/FA3/U2/Q (AO22X1)                    0.17       2.63 f
+  BA2/FA3/Cout (fullAdder_24)              0.00       2.63 f
+  BA2/FA4/Cin (fullAdder_17)               0.00       2.63 f
+  BA2/FA4/U2/Q (AO22X1)                    0.16       2.79 f
+  BA2/FA4/Cout (fullAdder_17)              0.00       2.79 f
+  BA2/U8/Q (MUX21X1)                       0.18       2.98 f
+  BA2/Cout (bypass_adder_7)                0.00       2.98 f
+  BA3/Cin (bypass_adder_6)                 0.00       2.98 f
+  BA3/FA1/Cin (fullAdder_9)                0.00       2.98 f
+  BA3/FA1/U2/Q (AO22X1)                    0.18       3.16 f
+  BA3/FA1/Cout (fullAdder_9)               0.00       3.16 f
+  BA3/FA2/Cin (fullAdder_30)               0.00       3.16 f
+  BA3/FA2/U2/Q (AO22X1)                    0.17       3.33 f
+  BA3/FA2/Cout (fullAdder_30)              0.00       3.33 f
+  BA3/FA3/Cin (fullAdder_23)               0.00       3.33 f
+  BA3/FA3/U2/Q (AO22X1)                    0.17       3.50 f
+  BA3/FA3/Cout (fullAdder_23)              0.00       3.50 f
+  BA3/FA4/Cin (fullAdder_16)               0.00       3.50 f
+  BA3/FA4/U2/Q (AO22X1)                    0.16       3.67 f
+  BA3/FA4/Cout (fullAdder_16)              0.00       3.67 f
+  BA3/U8/Q (MUX21X1)                       0.18       3.85 f
+  BA3/Cout (bypass_adder_6)                0.00       3.85 f
+  BA4/Cin (bypass_adder_5)                 0.00       3.85 f
+  BA4/FA1/Cin (fullAdder_8)                0.00       3.85 f
+  BA4/FA1/U2/Q (AO22X1)                    0.18       4.03 f
+  BA4/FA1/Cout (fullAdder_8)               0.00       4.03 f
+  BA4/FA2/Cin (fullAdder_29)               0.00       4.03 f
+  BA4/FA2/U2/Q (AO22X1)                    0.17       4.20 f
+  BA4/FA2/Cout (fullAdder_29)              0.00       4.20 f
+  BA4/FA3/Cin (fullAdder_22)               0.00       4.20 f
+  BA4/FA3/U2/Q (AO22X1)                    0.17       4.38 f
+  BA4/FA3/Cout (fullAdder_22)              0.00       4.38 f
+  BA4/FA4/Cin (fullAdder_15)               0.00       4.38 f
+  BA4/FA4/U2/Q (AO22X1)                    0.16       4.54 f
+  BA4/FA4/Cout (fullAdder_15)              0.00       4.54 f
+  BA4/U8/Q (MUX21X1)                       0.18       4.73 f
+  BA4/Cout (bypass_adder_5)                0.00       4.73 f
+  BA5/Cin (bypass_adder_4)                 0.00       4.73 f
+  BA5/FA1/Cin (fullAdder_3)                0.00       4.73 f
+  BA5/FA1/U2/Q (AO22X1)                    0.18       4.91 f
+  BA5/FA1/Cout (fullAdder_3)               0.00       4.91 f
+  BA5/FA2/Cin (fullAdder_28)               0.00       4.91 f
+  BA5/FA2/U2/Q (AO22X1)                    0.17       5.08 f
+  BA5/FA2/Cout (fullAdder_28)              0.00       5.08 f
+  BA5/FA3/Cin (fullAdder_21)               0.00       5.08 f
+  BA5/FA3/U2/Q (AO22X1)                    0.17       5.25 f
+  BA5/FA3/Cout (fullAdder_21)              0.00       5.25 f
+  BA5/FA4/Cin (fullAdder_14)               0.00       5.25 f
+  BA5/FA4/U2/Q (AO22X1)                    0.16       5.42 f
+  BA5/FA4/Cout (fullAdder_14)              0.00       5.42 f
+  BA5/U8/Q (MUX21X1)                       0.18       5.60 f
+  BA5/Cout (bypass_adder_4)                0.00       5.60 f
+  BA6/Cin (bypass_adder_3)                 0.00       5.60 f
+  BA6/FA1/Cin (fullAdder_2)                0.00       5.60 f
+  BA6/FA1/U2/Q (AO22X1)                    0.18       5.78 f
+  BA6/FA1/Cout (fullAdder_2)               0.00       5.78 f
+  BA6/FA2/Cin (fullAdder_27)               0.00       5.78 f
+  BA6/FA2/U2/Q (AO22X1)                    0.17       5.95 f
+  BA6/FA2/Cout (fullAdder_27)              0.00       5.95 f
+  BA6/

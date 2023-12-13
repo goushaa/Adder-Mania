@@ -1,0 +1,30 @@
+****************************************
+Report : area
+Design : bypassAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:52:50 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user28/Downloads/lookAheadAdder/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          371
+Number of nets:                           484
+Number of cells:                          187
+Number of combinational cells:            147
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                      11
+
+Combinational area:               1905.868824
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              63.283883
+
+Total cell area:                  1905.868824
+Total area:                       1969.152707
+1
