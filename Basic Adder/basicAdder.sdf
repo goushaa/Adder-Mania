@@ -1,0 +1,538 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : basicAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 15:16:37 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: B[0] (input port)
+  Endpoint: overFlow (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/CO (FADDX1)                   0.34      10.60 f
+  add_1_root_add_10_2/U1_28/CO (FADDX1)                   0.34      10.94 f
+  add_1_root_add_10_2/U1_29/CO (FADDX1)                   0.34      11.29 f
+  add_1_root_add_10_2/U1_30/CO (FADDX1)                   0.34      11.63 f
+  add_1_root_add_10_2/U1_31/S (FADDX1)                    0.38      12.01 f
+  add_1_root_add_10_2/SUM[31] (basicAdder_DW01_add_0)     0.00      12.01 f
+  U8/Q (XNOR2X1)                                          0.25      12.26 f
+  U6/QN (NOR2X0)                                          0.16      12.41 r
+  overFlow (out)                                          0.22      12.63 r
+  data arrival time                                                 12.63
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/CO (FADDX1)                   0.34      10.60 f
+  add_1_root_add_10_2/U1_28/CO (FADDX1)                   0.34      10.94 f
+  add_1_root_add_10_2/U1_29/CO (FADDX1)                   0.34      11.29 f
+  add_1_root_add_10_2/U1_30/CO (FADDX1)                   0.34      11.63 f
+  add_1_root_add_10_2/U1_31/S (FADDX1)                    0.38      12.01 f
+  add_1_root_add_10_2/SUM[31] (basicAdder_DW01_add_0)     0.00      12.01 f
+  S[31] (out)                                             0.25      12.26 f
+  data arrival time                                                 12.26
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: Cout (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/CO (FADDX1)                   0.34      10.60 f
+  add_1_root_add_10_2/U1_28/CO (FADDX1)                   0.34      10.94 f
+  add_1_root_add_10_2/U1_29/CO (FADDX1)                   0.34      11.29 f
+  add_1_root_add_10_2/U1_30/CO (FADDX1)                   0.34      11.63 f
+  add_1_root_add_10_2/U1_31/CO (FADDX1)                   0.35      11.97 f
+  add_1_root_add_10_2/SUM[32] (basicAdder_DW01_add_0)     0.00      11.97 f
+  Cout (out)                                              0.22      12.19 f
+  data arrival time                                                 12.19
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/CO (FADDX1)                   0.34      10.60 f
+  add_1_root_add_10_2/U1_28/CO (FADDX1)                   0.34      10.94 f
+  add_1_root_add_10_2/U1_29/CO (FADDX1)                   0.34      11.29 f
+  add_1_root_add_10_2/U1_30/S (FADDX1)                    0.37      11.66 f
+  add_1_root_add_10_2/SUM[30] (basicAdder_DW01_add_0)     0.00      11.66 f
+  S[30] (out)                                             0.22      11.88 f
+  data arrival time                                                 11.88
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/CO (FADDX1)                   0.34      10.60 f
+  add_1_root_add_10_2/U1_28/CO (FADDX1)                   0.34      10.94 f
+  add_1_root_add_10_2/U1_29/S (FADDX1)                    0.37      11.32 f
+  add_1_root_add_10_2/SUM[29] (basicAdder_DW01_add_0)     0.00      11.32 f
+  S[29] (out)                                             0.22      11.54 f
+  data arrival time                                                 11.54
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/CO (FADDX1)                   0.34      10.60 f
+  add_1_root_add_10_2/U1_28/S (FADDX1)                    0.37      10.98 f
+  add_1_root_add_10_2/SUM[28] (basicAdder_DW01_add_0)     0.00      10.98 f
+  S[28] (out)                                             0.22      11.20 f
+  data arrival time                                                 11.20
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[27] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/CO (FADDX1)                   0.34      10.26 f
+  add_1_root_add_10_2/U1_27/S (FADDX1)                    0.37      10.64 f
+  add_1_root_add_10_2/SUM[27] (basicAdder_DW01_add_0)     0.00      10.64 f
+  S[27] (out)                                             0.22      10.86 f
+  data arrival time                                                 10.86
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[26] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/CO (FADDX1)                   0.34       9.92 f
+  add_1_root_add_10_2/U1_26/S (FADDX1)                    0.37      10.30 f
+  add_1_root_add_10_2/SUM[26] (basicAdder_DW01_add_0)     0.00      10.30 f
+  S[26] (out)                                             0.22      10.52 f
+  data arrival time                                                 10.52
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[25] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/CO (FADDX1)                   0.34       9.58 f
+  add_1_root_add_10_2/U1_25/S (FADDX1)                    0.37       9.96 f
+  add_1_root_add_10_2/SUM[25] (basicAdder_DW01_add_0)     0.00       9.96 f
+  S[25] (out)                                             0.22      10.17 f
+  data arrival time                                                 10.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[24] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  basicAdder         8000                  saed90nm_typ_ht
+  basicAdder_DW01_add_0
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  B[0] (in)                                               0.00       1.00 f
+  add_1_root_add_10_2/B[0] (basicAdder_DW01_add_0)        0.00       1.00 f
+  add_1_root_add_10_2/U1_0/CO (FADDX1)                    0.40       1.40 f
+  add_1_root_add_10_2/U1_1/CO (FADDX1)                    0.34       1.75 f
+  add_1_root_add_10_2/U1_2/CO (FADDX1)                    0.34       2.09 f
+  add_1_root_add_10_2/U1_3/CO (FADDX1)                    0.34       2.43 f
+  add_1_root_add_10_2/U1_4/CO (FADDX1)                    0.34       2.77 f
+  add_1_root_add_10_2/U1_5/CO (FADDX1)                    0.34       3.11 f
+  add_1_root_add_10_2/U1_6/CO (FADDX1)                    0.34       3.45 f
+  add_1_root_add_10_2/U1_7/CO (FADDX1)                    0.34       3.79 f
+  add_1_root_add_10_2/U1_8/CO (FADDX1)                    0.34       4.13 f
+  add_1_root_add_10_2/U1_9/CO (FADDX1)                    0.34       4.47 f
+  add_1_root_add_10_2/U1_10/CO (FADDX1)                   0.34       4.81 f
+  add_1_root_add_10_2/U1_11/CO (FADDX1)                   0.34       5.15 f
+  add_1_root_add_10_2/U1_12/CO (FADDX1)                   0.34       5.49 f
+  add_1_root_add_10_2/U1_13/CO (FADDX1)                   0.34       5.83 f
+  add_1_root_add_10_2/U1_14/CO (FADDX1)                   0.34       6.17 f
+  add_1_root_add_10_2/U1_15/CO (FADDX1)                   0.34       6.52 f
+  add_1_root_add_10_2/U1_16/CO (FADDX1)                   0.34       6.86 f
+  add_1_root_add_10_2/U1_17/CO (FADDX1)                   0.34       7.20 f
+  add_1_root_add_10_2/U1_18/CO (FADDX1)                   0.34       7.54 f
+  add_1_root_add_10_2/U1_19/CO (FADDX1)                   0.34       7.88 f
+  add_1_root_add_10_2/U1_20/CO (FADDX1)                   0.34       8.22 f
+  add_1_root_add_10_2/U1_21/CO (FADDX1)                   0.34       8.56 f
+  add_1_root_add_10_2/U1_22/CO (FADDX1)                   0.34       8.90 f
+  add_1_root_add_10_2/U1_23/CO (FADDX1)                   0.34       9.24 f
+  add_1_root_add_10_2/U1_24/S (FADDX1)                    0.37       9.61 f
+  add_1_root_add_10_2/SUM[24] (basicAdder_DW01_add_0)     0.00       9.61 f
+  S[24] (out)                                             0.22       9.83 f
+  data arrival time                                                  9.83
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

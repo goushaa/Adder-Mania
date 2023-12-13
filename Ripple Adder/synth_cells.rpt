@@ -1,0 +1,54 @@
+****************************************
+Report : cell
+Design : rippleCarryAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 19:32:13 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U4                        NOR2X0          saed90nm_typ_ht 5.529600  
+U5                        XOR2X1          saed90nm_typ_ht 13.824000 
+U6                        XNOR2X1         saed90nm_typ_ht 13.824000 
+gen_full_adders[0].FA     fullAdder_0                     39.628800 h
+gen_full_adders[1].FA     fullAdder_31                    39.628800 h
+gen_full_adders[2].FA     fullAdder_30                    39.628800 h
+gen_full_adders[3].FA     fullAdder_29                    39.628800 h
+gen_full_adders[4].FA     fullAdder_28                    39.628800 h
+gen_full_adders[5].FA     fullAdder_27                    39.628800 h
+gen_full_adders[6].FA     fullAdder_26                    39.628800 h
+gen_full_adders[7].FA     fullAdder_25                    39.628800 h
+gen_full_adders[8].FA     fullAdder_24                    39.628800 h
+gen_full_adders[9].FA     fullAdder_23                    39.628800 h
+gen_full_adders[10].FA    fullAdder_22                    39.628800 h
+gen_full_adders[11].FA    fullAdder_21                    39.628800 h
+gen_full_adders[12].FA    fullAdder_20                    39.628800 h
+gen_full_adders[13].FA    fullAdder_19                    39.628800 h
+gen_full_adders[14].FA    fullAdder_18                    39.628800 h
+gen_full_adders[15].FA    fullAdder_17                    39.628800 h
+gen_full_adders[16].FA    fullAdder_16                    39.628800 h
+gen_full_adders[17].FA    fullAdder_15                    39.628800 h
+gen_full_adders[18].FA    fullAdder_14                    39.628800 h
+gen_full_adders[19].FA    fullAdder_13                    39.628800 h
+gen_full_adders[20].FA    fullAdder_12                    39.628800 h
+gen_full_adders[21].FA    fullAdder_11                    39.628800 h
+gen_full_adders[22].FA    fullAdder_10                    39.628800 h
+gen_full_adders[23].FA    fullAdder_9                     39.628800 h
+gen_full_adders[24].FA    fullAdder_8                     39.628800 h
+gen_full_adders[25].FA    fullAdder_7                     39.628800 h
+gen_full_adders[26].FA    fullAdder_6                     39.628800 h
+gen_full_adders[27].FA    fullAdder_5                     39.628800 h
+gen_full_adders[28].FA    fullAdder_4                     39.628800 h
+gen_full_adders[29].FA    fullAdder_3                     39.628800 h
+gen_full_adders[30].FA    fullAdder_2                     39.628800 h
+gen_full_adders[31].FA    fullAdder_1                     39.628800 h
+--------------------------------------------------------------------------------
+Total 35 cells                                            1301.299213
+1
