@@ -48,3 +48,26 @@ module bypassAdder(
     assign S = S;
 
 endmodule
+
+module fullAdder(
+    input A,
+    input B,
+    input Cin,
+    output Sum,
+    output Cout
+);
+
+    wire w1, w2, w3;
+    
+    // XOR gates for sum generation
+    assign w1 = A ^ B;
+    assign Sum = w1 ^ Cin;
+
+
+    // AND gates for carry generation
+    assign w2 = A & B;
+    assign w3 = w1 & Cin;
+    assign Cout = w3 | w2;
+
+endmodule
+
