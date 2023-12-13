@@ -1,0 +1,82 @@
+****************************************
+Report : qor
+Design : fpAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:59:41 2023
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              67.00
+  Critical Path Length:         18.11
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          9
+  Hierarchical Port Count:        435
+  Leaf Cell Count:                837
+  Buf/Inv Cell Count:             202
+  Buf Cell Count:                   0
+  Inv Cell Count:                 202
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       832
+  Sequential Cell Count:            5
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     9615.974381
+  Noncombinational Area:   110.592003
+  Buf/Inv Area:           1116.979229
+  Total Buffer Area:             0.00
+  Total Inverter Area:        1116.98
+  Macro/Black Box Area:      0.000000
+  Net Area:                613.884326
+  -----------------------------------
+  Cell Area:              9726.566384
+  Design Area:           10340.450710
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          1000
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: ip-172-31-17-209.ec2.internal
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    2.25
+  Logic Optimization:                  0.26
+  Mapping Optimization:                0.15
+  -----------------------------------------
+  Overall Compile Time:                3.04
+  Overall Compile Wall Clock Time:     3.27
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

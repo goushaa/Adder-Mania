@@ -1,0 +1,30 @@
+****************************************
+Report : area
+Design : fpAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:59:41 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user28/Downloads/lookAheadAdder/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          532
+Number of nets:                          1415
+Number of cells:                          854
+Number of combinational cells:            832
+Number of sequential cells:                 5
+Number of macros/black boxes:               0
+Number of buf/inv:                        202
+Number of references:                      35
+
+Combinational area:               9615.974381
+Buf/Inv area:                     1116.979229
+Noncombinational area:             110.592003
+Macro/Black Box area:                0.000000
+Net Interconnect area:             613.884326
+
+Total cell area:                  9726.566384
+Total area:                      10340.450710
+1

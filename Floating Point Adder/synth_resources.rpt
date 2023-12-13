@@ -1,0 +1,50 @@
+****************************************
+Report : resources
+Design : fpAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:59:41 2023
+****************************************
+
+Resource Sharing Report for design fpAdder in file ./source/fpAdder.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r173     | DW01_cmp2    | width=25   |               | gte_35 gte_41        |
+| r194     | DW01_cmp2    | width=8    |               | gt_19                |
+| r196     | DW01_sub     | width=8    |               | sub_20               |
+| r198     | DW_rash      | A_width=24 |               | srl_20               |
+|          |              | SH_width=8 |               |                      |
+| r200     | DW01_sub     | width=8    |               | sub_23               |
+| r202     | DW_rash      | A_width=24 |               | srl_23               |
+|          |              | SH_width=8 |               |                      |
+| r204     | DW01_add     | width=25   |               | add_27               |
+| r206     | DW01_inc     | width=8    |               | add_31               |
+| r208     | DW01_sub     | width=24   |               | sub_36               |
+| r210     | DW01_sub     | width=24   |               | sub_39               |
+| r212     | DW01_sub     | width=32   |               | sub_47               |
+| r214     | DW01_ash     | A_width=23 |               | sll_47               |
+|          |              | SH_width=32 |              |                      |
+| r216     | DW01_sub     | width=8    |               | sub_48               |
+| r218     | DW01_sub     | width=8    |               | sub_48_2             |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_23             | DW01_sub         | rpl                |                |
+| srl_23             | DW_rash          | mx2                |                |
+| sub_20             | DW01_sub         | rpl                |                |
+| srl_20             | DW_rash          | mx2                |                |
+| add_27             | DW01_add         | rpl                |                |
+| add_31             | DW01_inc         | rpl                |                |
+| sub_36             | DW01_sub         | rpl                |                |
+| sub_39             | DW01_sub         | rpl                |                |
+| sub_48_2           | DW01_sub         | rpl                |                |
+===============================================================================
+
+1

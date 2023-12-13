@@ -1,0 +1,947 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : fpAdder
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 20:59:41 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U317/Q (AO222X1)                                        0.30      18.73 r
+  U316/Q (AO221X1)                                        0.19      18.92 r
+  Sum[15] (out)                                           0.19      19.11 r
+  data arrival time                                                 19.11
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[12] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U347/Q (AO222X1)                                        0.30      18.73 r
+  U346/Q (AO221X1)                                        0.19      18.92 r
+  Sum[12] (out)                                           0.19      19.11 r
+  data arrival time                                                 19.11
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[11] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U358/Q (AO222X1)                                        0.23      18.66 r
+  U357/Q (AO221X1)                                        0.19      18.85 r
+  Sum[11] (out)                                           0.19      19.05 r
+  data arrival time                                                 19.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U366/Q (AO222X1)                                        0.23      18.66 r
+  U365/Q (AO221X1)                                        0.19      18.85 r
+  Sum[10] (out)                                           0.19      19.05 r
+  data arrival time                                                 19.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U248/Q (AO222X1)                                        0.23      18.66 r
+  U247/Q (AO221X1)                                        0.19      18.85 r
+  Sum[9] (out)                                            0.19      19.05 r
+  data arrival time                                                 19.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U250/Q (AO222X1)                                        0.23      18.66 r
+  U249/Q (AO221X1)                                        0.19      18.85 r
+  Sum[8] (out)                                            0.19      19.05 r
+  data arrival time                                                 19.05
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U257/Q (AO222X1)                                        0.32      18.75 r
+  Sum[3] (out)                                            0.19      18.94 r
+  data arrival time                                                 18.94
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U259/Q (AO222X1)                                        0.32      18.75 r
+  Sum[2] (out)                                            0.19      18.94 r
+  data arrival time                                                 18.94
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FADDX1)                                0.34      10.50 f
+  sub_36/U2_17/CO (FADDX1)                                0.34      10.84 f
+  sub_36/U2_18/CO (FADDX1)                                0.34      11.18 f
+  sub_36/U2_19/CO (FADDX1)                                0.34      11.52 f
+  sub_36/U2_20/CO (FADDX1)                                0.34      11.86 f
+  sub_36/U2_21/CO (FADDX1)                                0.34      12.20 f
+  sub_36/U2_22/CO (FADDX1)                                0.34      12.55 f
+  sub_36/U2_23/S (FADDX1)                                 0.34      12.89 f
+  sub_36/DIFF[23] (fpAdder_DW01_sub_4)                    0.00      12.89 f
+  U469/Q (MUX21X1)                                        0.16      13.05 f
+  U468/ZN (INVX0)                                         0.10      13.15 r
+  U438/QN (NAND4X0)                                       0.13      13.28 f
+  U435/Q (OR2X1)                                          0.17      13.45 f
+  U431/Q (OR4X1)                                          0.18      13.64 f
+  U430/QN (NOR4X0)                                        0.28      13.92 r
+  U426/Q (AO21X1)                                         0.25      14.17 r
+  U425/ZN (INVX0)                                         0.10      14.27 f
+  sub_48_2/B[1] (fpAdder_DW01_sub_0)                      0.00      14.27 f
+  sub_48_2/U5/ZN (INVX0)                                  0.14      14.41 r
+  sub_48_2/U2_1/CO (FADDX1)                               0.41      14.82 r
+  sub_48_2/U2_2/CO (FADDX1)                               0.33      15.15 r
+  sub_48_2/U2_3/CO (FADDX1)                               0.33      15.49 r
+  sub_48_2/U2_4/CO (FADDX1)                               0.33      15.82 r
+  sub_48_2/U2_5/CO (FADDX1)                               0.33      16.15 r
+  sub_48_2/U2_6/CO (FADDX1)                               0.33      16.49 r
+  sub_48_2/U2_7/S (FADDX1)                                0.35      16.84 f
+  sub_48_2/DIFF[7] (fpAdder_DW01_sub_0)                   0.00      16.84 f
+  U404/Q (AO222X1)                                        0.19      17.03 f
+  U400/Q (AND4X1)                                         0.18      17.21 f
+  U399/QN (NAND4X0)                                       0.15      17.37 r
+  U398/ZN (INVX0)                                         0.15      17.51 f
+  U391/QN (NOR2X0)                                        0.19      17.71 r
+  U389/Q (AND2X1)                                         0.19      17.90 r
+  U388/Q (AND2X1)                                         0.16      18.06 r
+  U387/QN (NAND2X0)                                       0.15      18.21 f
+  U386/ZN (INVX0)                                         0.22      18.43 r
+  U282/Q (AO222X1)                                        0.32      18.75 r
+  Sum[1] (out)                                            0.19      18.94 r
+  data arrival time                                                 18.94
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: A[23] (input port)
+  Endpoint: Sum[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpAdder            16000                 saed90nm_typ_ht
+  fpAdder_DW01_sub_5 8000                  saed90nm_typ_ht
+  fpAdder_DW_rash_0  8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_4 8000                  saed90nm_typ_ht
+  fpAdder_DW01_sub_0 8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    1.00       1.00 f
+  A[23] (in)                                              0.00       1.00 f
+  sub_20/A[0] (fpAdder_DW01_sub_5)                        0.00       1.00 f
+  sub_20/U8/ZN (INVX0)                                    0.11       1.11 r
+  sub_20/U1/QN (NAND2X1)                                  0.13       1.24 f
+  sub_20/U2_1/CO (FADDX1)                                 0.34       1.58 f
+  sub_20/U2_2/CO (FADDX1)                                 0.34       1.92 f
+  sub_20/U2_3/CO (FADDX1)                                 0.34       2.26 f
+  sub_20/U2_4/CO (FADDX1)                                 0.34       2.60 f
+  sub_20/U2_5/CO (FADDX1)                                 0.34       2.94 f
+  sub_20/U2_6/S (FADDX1)                                  0.35       3.29 f
+  sub_20/DIFF[6] (fpAdder_DW01_sub_5)                     0.00       3.29 f
+  srl_20/SH[6] (fpAdder_DW_rash_0)                        0.00       3.29 f
+  srl_20/U123/Q (OR2X1)                                   0.15       3.44 f
+  srl_20/U121/QN (NOR2X0)                                 0.24       3.69 r
+  srl_20/U11/ZN (INVX0)                                   0.15       3.84 f
+  srl_20/U106/QN (NOR2X0)                                 0.18       4.02 r
+  srl_20/U54/Q (AO222X1)                                  0.21       4.23 r
+  srl_20/U53/Q (MUX21X1)                                  0.18       4.40 r
+  srl_20/U52/Q (OA21X1)                                   0.16       4.56 r
+  srl_20/B[1] (fpAdder_DW_rash_0)                         0.00       4.56 r
+  U578/Q (MUX21X1)                                        0.24       4.80 r
+  sub_36/B[1] (fpAdder_DW01_sub_4)                        0.00       4.80 r
+  sub_36/U25/ZN (INVX0)                                   0.15       4.95 f
+  sub_36/U2_1/CO (FADDX1)                                 0.43       5.38 f
+  sub_36/U2_2/CO (FADDX1)                                 0.34       5.73 f
+  sub_36/U2_3/CO (FADDX1)                                 0.34       6.07 f
+  sub_36/U2_4/CO (FADDX1)                                 0.34       6.41 f
+  sub_36/U2_5/CO (FADDX1)                                 0.34       6.75 f
+  sub_36/U2_6/CO (FADDX1)                                 0.34       7.09 f
+  sub_36/U2_7/CO (FADDX1)                                 0.34       7.43 f
+  sub_36/U2_8/CO (FADDX1)                                 0.34       7.77 f
+  sub_36/U2_9/CO (FADDX1)                                 0.34       8.11 f
+  sub_36/U2_10/CO (FADDX1)                                0.34       8.45 f
+  sub_36/U2_11/CO (FADDX1)                                0.34       8.79 f
+  sub_36/U2_12/CO (FADDX1)                                0.34       9.14 f
+  sub_36/U2_13/CO (FADDX1)                                0.34       9.48 f
+  sub_36/U2_14/CO (FADDX1)                                0.34       9.82 f
+  sub_36/U2_15/CO (FADDX1)                                0.34      10.16 f
+  sub_36/U2_16/CO (FAD
